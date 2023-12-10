@@ -1,0 +1,108 @@
+.Top-text{
+    font-size: 100px;
+    font-family:Forte;
+    color:rgb(244, 247, 250);
+    position:absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hr {
+    margin: 0;
+}
+html, body{
+    margin: 0;
+}
+p {
+    border: 1px;
+}
+.top-hr {
+    background-color: rgb(223, 253, 253);
+}
+header{
+    width: 1349px;
+    height:300px;
+    background-image: url("Website-images/header.png");
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+}
+.About-heading {
+    font-size: 25px;
+}
+.about-channel-1{
+    padding-left: 30px;
+    font-size: 21px;
+}
+.Logo-about {
+    float :left;
+    height: 190px;
+    width: 190px;
+    padding-top: 0;
+    padding-left: 10px;
+}
+.channel-about{
+    margin: 10px;
+}
+footer{
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+.Tabs{
+    background-color: rgb(223, 253, 253);
+}
+button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(2, 253, 253);
+    color:blue;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(0, 119, 255);
+    color:yellow;
+}
+.Store-tab{
+    padding-left: 415px;
+}
+.Comments-tab{
+    padding-left: 210px;
+}
+h3{
+    font-family: sans-serif;
+}
+.bottle-art-head{
+    padding-left: 200px;
+    color: rgb(42, 209, 8);
+    text-decoration: underline;
+}
+h2 {
+    text-align: center;
+    font-family: Courier;
+}
+.store-container img{
+    width: 150px;
+    padding : 2px;
+}
+.store-container {
+    display: flex;
+    flex-direction: row;
+}
+.product-1-text {
+    display: flex;
+    flex-direction: row;
+}
+.product-1{
+    width: 154px;
+    height: 210px;
+    background-color: rgb(242, 255, 189);
+    margin-left : 50px;
+}
+.price{
+    color: green;
+}
+.links-heading{
+    font-family:Verdana;
+}
